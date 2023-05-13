@@ -1,0 +1,140 @@
+.companies {
+  background-color: #6e6e6e;
+}
+.footer{
+  background-color: rgb(224, 228, 233);
+}
+.companies-list {
+  list-style-type: none;
+  padding: 0;
+  display: inline-flex;
+  margin-bottom: 40px;
+}
+.companies-list img {
+  width: 150px;
+  height: 80px;
+}
+.companies-list li {
+  margin: 0px 5px;
+}
+.lets-start {
+  background-color: #03879e;
+  border-radius: 10px;
+}
+.course,
+.lets-start {
+  padding: 40px 0px;
+}
+.course-list {
+  list-style-type: none;
+  padding: 0;
+  display: inline-flex;
+  margin: 10px 0px;
+}
+.course-list .fa {
+  font-size: 50px;
+  font-weight: 900;
+  padding: 20px 0px;
+  color: #023880;
+}
+.course-list li {
+  width: 20%;
+  padding: 20px 10px;
+  margin: 10px;
+  background-color: lightgreen;
+  border-radius: 0px 20px;
+}
+.course-list h4 {
+  font-weight: 4000;
+}
+.course-list p {
+  font-size: 18px;
+  font-weight: 100;
+}
+.course-list a {
+  text-decoration: none;
+  color: #03386f;
+}
+.course-list a:hover {
+  text-decoration: underline;
+}
+.projects {
+  padding: 30px 10px;
+}
+.accordion-header button {
+  background-color: lightgreen;
+  color: #03386f;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #03386f;
+  color: #ffffff;
+}
+@media only screen and (max-width: 800px) {
+  .companies-list {
+    display: inline-block;
+  }
+  .companies-list li {
+    width: 100%;
+    margin: 2px 0px;
+    padding: 1px;
+  }
+  .companies-list img {
+    width: 100%;
+    height: 85px;
+  }
+
+  .course-list {
+    display: inline-block;
+  }
+  .course-list li {
+    width: 90%;
+    margin: 5px 0px;
+    padding: 3px 5px;
+    display: inline-table;
+    border-radius: 20px 0px;
+  }
+  .projects {
+    padding: 40px 5px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .companies-list {
+    display: inline-block;
+  }
+  .companies-list li {
+    width: 50%;
+    margin: 4px 0px;
+  }
+  .companies-list img {
+    width: 240px;
+    height: 85px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .companies-list {
+    display: inline-block;
+  }
+  .companies-list li {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .companies-list img {
+    width: 230px;
+    height: 85px;
+  }
+  .course-list {
+    display: inline-block;
+  }
+  .course-list li {
+    width: 90%;
+    margin: 5px 0px;
+    padding: 3px 5px;
+    display: inline-table;
+    border-radius: 20px 0px;
+  }
+  .projects {
+    padding: 40px 5px;
+  }
+}
